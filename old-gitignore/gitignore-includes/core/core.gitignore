@@ -1,0 +1,47 @@
+###############################################################################
+# Core .gitignore patterns that should apply to all projects
+# 
+# This file is part of the Klingon Tools project:
+# https://github.com/djh00t/klingon_tools/tree/main/repo_templates/gitignore
+#
+# Created by: David Hooton <klingon_tools+david@hooton.org>
+# Date: 26-07-2024
+#
+# Usage: This file is included by the main .gitignore file. It contains
+#        patterns that are common across most projects and should be ignored.
+#
+# License: This project is licensed under the MIT License
+#          https://opensource.org/licenses/MIT
+###############################################################################
+
+# Generally unwanted OS files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+/build/
+/dist/
+/out/
+
+# Dependency directories
+/node_modules/
+/vendor/
+
+# Environment files
+.env
+.env.local
+
+# Compiled files
+*.class
+*.pyc
+*.o

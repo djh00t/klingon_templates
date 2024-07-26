@@ -1,0 +1,58 @@
+###############################################################################
+# Core .gitignore patterns that should apply to all projects
+# 
+# This file is part of the Klingon Tools project:
+# https://github.com/djh00t/klingon_tools/tree/main/repo_templates/gitignore
+#
+# Created by: David Hooton <klingon_tools+david@hooton.org>
+# Date: 26-07-2024
+#
+# Usage: Copy this file to the root of your project and rename it to .gitignore
+#        Uncomment the include lines for the languages and environments you need
+#
+# License: This project is licensed under the MIT License
+#          https://opensource.org/licenses/MIT
+###############################################################################
+
+# Include core ignores
+!gitignore-core
+
+# Project-specific ignores can be added here
+
+
+
+# Include OS/environment-specific ignores (uncomment as needed)
+!gitignore-includes/environments/docker.gitignore
+!gitignore-includes/environments/linux.gitignore
+!gitignore-includes/environments/macos.gitignore
+!gitignore-includes/environments/windows.gitignore
+
+# Include IDE-specific ignores (uncomment as needed)
+# !gitignore-includes/ide/aider.gitignore
+# !gitignore-includes/ide/eclipse.gitignore
+# !gitignore-includes/ide/emacs.gitignore
+# !gitignore-includes/ide/jetbrains.gitignore
+# !gitignore-includes/ide/nano.gitignore
+# !gitignore-includes/ide/sublime.gitignore
+# !gitignore-includes/ide/vi.gitignore
+# !gitignore-includes/ide/vim.gitignore
+# !gitignore-includes/ide/vscode.gitignore
+
+# Include shell-specific ignores (uncomment as needed)
+# !gitignore-includes/shells/bash.gitignore
+# !gitignore-includes/shells/powershell.gitignore
+# !gitignore-includes/shells/zsh.gitignore
+
+# Include language-specific ignores (uncomment as needed)
+# !gitignore-includes/languages/c.gitignore
+# !gitignore-includes/languages/cpp.gitignore
+# !gitignore-includes/languages/go.gitignore
+# !gitignore-includes/languages/java.gitignore
+# !gitignore-includes/languages/javascript.gitignore
+# !gitignore-includes/languages/nodejs.gitignore
+# !gitignore-includes/languages/php.gitignore
+# !gitignore-includes/languages/python.gitignore
+# !gitignore-includes/languages/ruby.gitignore
+# !gitignore-includes/languages/rust.gitignore
+# !gitignore-includes/languages/swift.gitignore
+# !gitignore-includes/languages/typescript.gitignore

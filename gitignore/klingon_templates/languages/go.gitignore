@@ -1,0 +1,35 @@
+###############################################################################
+# Go-specific .gitignore patterns
+# 
+# This file is part of the Klingon Tools project:
+# https://github.com/djh00t/klingon_tools/tree/main/repo_templates/gitignore
+#
+# Created by: David Hooton <klingon_tools+david@hooton.org>
+# Date: 26-07-2024
+#
+# Usage: Include this file in your main .gitignore by uncommenting the
+#        corresponding line:
+#        !gitignore-includes/languages/go.gitignore
+#
+# License: This project is licensed under the MIT License
+#          https://opensource.org/licenses/MIT
+###############################################################################
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work

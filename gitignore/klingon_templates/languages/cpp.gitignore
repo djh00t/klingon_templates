@@ -1,0 +1,49 @@
+###############################################################################
+# C++-specific .gitignore patterns
+# 
+# This file is part of the Klingon Tools project:
+# https://github.com/djh00t/klingon_tools/tree/main/repo_templates/gitignore
+#
+# Created by: David Hooton <klingon_tools+david@hooton.org>
+# Date: 26-07-2024
+#
+# Usage: Include this file in your main .gitignore by uncommenting the
+#        corresponding line:
+#        !gitignore-includes/languages/cpp.gitignore
+#
+# License: This project is licensed under the MIT License
+#          https://opensource.org/licenses/MIT
+###############################################################################
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app

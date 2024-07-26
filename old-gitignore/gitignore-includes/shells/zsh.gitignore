@@ -1,0 +1,65 @@
+###############################################################################
+# Zsh-specific .gitignore patterns
+# 
+# This file is part of the Klingon Tools project:
+# https://github.com/djh00t/klingon_tools/tree/main/repo_templates/gitignore
+#
+# Created by: David Hooton <klingon_tools+david@hooton.org>
+# Date: 26-07-2024
+#
+# Usage: Include this file in your main .gitignore by uncommenting the
+#        corresponding line:
+#        !gitignore-includes/shells/zsh.gitignore
+#
+# License: This project is licensed under the MIT License
+#          https://opensource.org/licenses/MIT
+###############################################################################
+
+# Zsh compiled script + zrecompile backup
+*.zwc
+*.zwc.old
+
+# Zsh completion-optimization dumpfile
+*zcompdump*
+
+# Zsh zcalc history
+.zcalc_history
+
+# A popular plugin manager's files
+._zinit
+.zinit_lstupd
+
+# zdharma/zshelldoc tool's files
+zsdoc/data
+
+# robbyrussell/oh-my-zsh/plugins/per-directory-history plugin's files
+# (when set-up to store the history in the local directory)
+.directory_history
+
+# MichaelAquilina/zsh-you-should-use plugin's files
+.ysu_usage.db
+
+# Zsh-z plugin's files
+.z
+.z.*
+
+# Zsh-autosuggestions history
+.zsh_history
+
+# Zsh-syntax-highlighting custom highlighters
+.zsh-syntax-highlighting/
+
+# Antigen plugin manager files
+.antigen/
+
+# Oh My Zsh installation directory
+.oh-my-zsh/
+
+# Prezto installation directory
+.zprezto/
+
+# Zplug installation directory
+.zplug/
+
+# Zgen installation directory
+.zgen/

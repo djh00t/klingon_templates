@@ -1,0 +1,58 @@
+###############################################################################
+# Core .gitignore patterns that should apply to all projects
+# 
+# This file is part of the Klingon Tools project:
+# https://github.com/djh00t/klingon_tools/tree/main/repo_templates/gitignore
+#
+# Created by: David Hooton <klingon_tools+david@hooton.org>
+# Date: 26-07-2024
+#
+# Usage: Copy this file to the root of your project and rename it to .gitignore
+#        Uncomment the include lines for the languages and environments you need
+#
+# License: This project is licensed under the MIT License
+#          https://opensource.org/licenses/MIT
+###############################################################################
+
+# Include core ignores
+!.klingon_templates/core/core.gitignore
+
+# Project-specific ignores can be added here
+
+
+
+# Include OS/environment-specific ignores (uncomment as needed)
+# !./klingon_templates/environments/docker.gitignore
+# !./klingon_templates/environments/linux.gitignore
+# !./klingon_templates/environments/macos.gitignore
+# !./klingon_templates/environments/windows.gitignore
+
+# Include IDE-specific ignores (uncomment as needed)
+# !./klingon_templates/ide/aider.gitignore
+# !./klingon_templates/ide/eclipse.gitignore
+# !./klingon_templates/ide/emacs.gitignore
+# !./klingon_templates/ide/jetbrains.gitignore
+# !./klingon_templates/ide/nano.gitignore
+# !./klingon_templates/ide/sublime.gitignore
+# !./klingon_templates/ide/vi.gitignore
+# !./klingon_templates/ide/vim.gitignore
+# !./klingon_templates/ide/vscode.gitignore
+
+# Include shell-specific ignores (uncomment as needed)
+# !./klingon_templates/shells/bash.gitignore
+# !./klingon_templates/shells/powershell.gitignore
+# !./klingon_templates/shells/zsh.gitignore
+
+# Include language-specific ignores (uncomment as needed)
+# !./klingon_templates/languages/c.gitignore
+# !./klingon_templates/languages/cpp.gitignore
+# !./klingon_templates/languages/go.gitignore
+# !./klingon_templates/languages/java.gitignore
+# !./klingon_templates/languages/javascript.gitignore
+# !./klingon_templates/languages/nodejs.gitignore
+# !./klingon_templates/languages/php.gitignore
+# !./klingon_templates/languages/python.gitignore
+# !./klingon_templates/languages/ruby.gitignore
+# !./klingon_templates/languages/rust.gitignore
+# !./klingon_templates/languages/swift.gitignore
+# !./klingon_templates/languages/typescript.gitignore
