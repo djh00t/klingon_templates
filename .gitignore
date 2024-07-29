@@ -17,47 +17,43 @@
 ###############################################################################
 
 # Include core ignores
-!gitignore/klingon_templates/core/core.gitignore
-
-# Project-specific ignores can be added here
-
-
+./klingon_templates/gitignore/core/core.gitignore
 
 # Include OS/environment-specific ignores (uncomment as needed)
-# !gitignore/klingon_templates/environments/docker.gitignore
-# !gitignore/klingon_templates/environments/linux.gitignore
-!gitignore/klingon_templates/environments/macos.gitignore
-!gitignore/klingon_templates/environments/windows.gitignore
+./klingon_templates/gitignore/environments/docker.gitignore
+./klingon_templates/gitignore/environments/linux.gitignore
+./klingon_templates/gitignore/environments/macos.gitignore
+./klingon_templates/gitignore/environments/windows.gitignore
 
 # Include IDE-specific ignores (uncomment as needed)
-!gitignore/klingon_templates/ide/aider.gitignore
-# !gitignore/klingon_templates/ide/eclipse.gitignore
-# !gitignore/klingon_templates/ide/emacs.gitignore
-# !gitignore/klingon_templates/ide/jetbrains.gitignore
-# !gitignore/klingon_templates/ide/nano.gitignore
-# !gitignore/klingon_templates/ide/sublime.gitignore
-# !gitignore/klingon_templates/ide/vi.gitignore
-# !gitignore/klingon_templates/ide/vim.gitignore
-!gitignore/klingon_templates/ide/vscode.gitignore
+./klingon_templates/gitignore/ide/aider.gitignore
+# ./klingon_templates/gitignore/ide/eclipse.gitignore
+# ./klingon_templates/gitignore/ide/emacs.gitignore
+# ./klingon_templates/gitignore/ide/jetbrains.gitignore
+# ./klingon_templates/gitignore/ide/nano.gitignore
+# ./klingon_templates/gitignore/ide/sublime.gitignore
+# ./klingon_templates/gitignore/ide/vi.gitignore
+# ./klingon_templates/gitignore/ide/vim.gitignore
+./klingon_templates/gitignore/ide/vscode.gitignore
 
 # Include shell-specific ignores (uncomment as needed)
-!gitignore/klingon_templates/shells/bash.gitignore
-# !gitignore/klingon_templates/shells/powershell.gitignore
-# !gitignore/klingon_templates/shells/zsh.gitignore
+./klingon_templates/gitignore/shells/bash.gitignore
+# ./klingon_templates/gitignore/shells/powershell.gitignore
+# ./klingon_templates/gitignore/shells/zsh.gitignore
 
 # Include language-specific ignores (uncomment as needed)
-# !gitignore/klingon_templates/languages/c.gitignore
-# !gitignore/klingon_templates/languages/cpp.gitignore
-# !gitignore/klingon_templates/languages/go.gitignore
-# !gitignore/klingon_templates/languages/java.gitignore
-# !gitignore/klingon_templates/languages/javascript.gitignore
-# !gitignore/klingon_templates/languages/nodejs.gitignore
-# !gitignore/klingon_templates/languages/php.gitignore
-!gitignore/klingon_templates/languages/python.gitignore
-# !gitignore/klingon_templates/languages/ruby.gitignore
-# !gitignore/klingon_templates/languages/rust.gitignore
-# !gitignore/klingon_templates/languages/swift.gitignore
-# !gitignore/klingon_templates/languages/typescript.gitignore
+# ./klingon_templates/gitignore/languages/c.gitignore
+# ./klingon_templates/gitignore/languages/cpp.gitignore
+# ./klingon_templates/gitignore/languages/go.gitignore
+# ./klingon_templates/gitignore/languages/java.gitignore
+# ./klingon_templates/gitignore/languages/javascript.gitignore
+# ./klingon_templates/gitignore/languages/nodejs.gitignore
+# ./klingon_templates/gitignore/languages/php.gitignore
+./klingon_templates/gitignore/languages/python.gitignore
+# ./klingon_templates/gitignore/languages/ruby.gitignore
+# ./klingon_templates/gitignore/languages/rust.gitignore
+# ./klingon_templates/gitignore/languages/swift.gitignore
+# ./klingon_templates/gitignore/languages/typescript.gitignore
 
 ###############################################################################
 #
