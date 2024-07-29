@@ -18,56 +18,56 @@
 
 # Include optional user defined project root `project.gitignore`
 ## project ignores
-!project.gitignore
+!./project.gitignore
 ## end gitignore
 
 # Include core ignores - Should generally be active
 ## core ignores
-!./klingon_templates/gitignore/klingon_templates/core/core.gitignore
+!klingon_templates/gitignore/klingon_templates/core/core.gitignore
 ## end gitignore
 
 # Include OS/environment-specific ignores (uncomment as needed)
 ## environments ignores
-!./klingon_templates/gitignore/klingon_templates/environments/docker.gitignore
-!./klingon_templates/gitignore/klingon_templates/environments/linux.gitignore
-!./klingon_templates/gitignore/klingon_templates/environments/macos.gitignore
-!./klingon_templates/gitignore/klingon_templates/environments/windows.gitignore
+!klingon_templates/gitignore/klingon_templates/environments/docker.gitignore
+!klingon_templates/gitignore/klingon_templates/environments/linux.gitignore
+!klingon_templates/gitignore/klingon_templates/environments/macos.gitignore
+!klingon_templates/gitignore/klingon_templates/environments/windows.gitignore
 ## end gitignore
 
 # Include IDE-specific ignores (uncomment as needed)
 ## ide ignores
-# !./klingon_templates/gitignore/klingon_templates/ide/aider.gitignore
-# !./klingon_templates/gitignore/klingon_templates/ide/emacs.gitignore
-# !./klingon_templates/gitignore/klingon_templates/ide/jetbrains.gitignore
-# !./klingon_templates/gitignore/klingon_templates/ide/nano.gitignore
-# !./klingon_templates/gitignore/klingon_templates/ide/eclipse.gitignore
-# !./klingon_templates/gitignore/klingon_templates/ide/sublime.gitignore
-# !./klingon_templates/gitignore/klingon_templates/ide/vi.gitignore
-# !./klingon_templates/gitignore/klingon_templates/ide/vim.gitignore
-!./klingon_templates/gitignore/klingon_templates/ide/vscode.gitignore
+!klingon_templates/gitignore/klingon_templates/ide/aider.gitignore
+# !klingon_templates/gitignore/klingon_templates/ide/emacs.gitignore
+# !klingon_templates/gitignore/klingon_templates/ide/jetbrains.gitignore
+# !klingon_templates/gitignore/klingon_templates/ide/nano.gitignore
+# !klingon_templates/gitignore/klingon_templates/ide/eclipse.gitignore
+# !klingon_templates/gitignore/klingon_templates/ide/sublime.gitignore
+# !klingon_templates/gitignore/klingon_templates/ide/vi.gitignore
+# !klingon_templates/gitignore/klingon_templates/ide/vim.gitignore
+!klingon_templates/gitignore/klingon_templates/ide/vscode.gitignore
 ## end gitignore
 
 # Include shell-specific ignores (uncomment as needed)
 ## shell ignores
-!./klingon_templates/gitignore/klingon_templates/shells/bash.gitignore
-# !./klingon_templates/gitignore/klingon_templates/shells/powershell.gitignore
-# !./klingon_templates/gitignore/klingon_templates/shells/zsh.gitignore
+!klingon_templates/gitignore/klingon_templates/shells/bash.gitignore
+# !klingon_templates/gitignore/klingon_templates/shells/powershell.gitignore
+# !klingon_templates/gitignore/klingon_templates/shells/zsh.gitignore
 ## end gitignore
 
 # Include language-specific ignores (uncomment as needed)
 ## languages ignores
-# !./klingon_templates/gitignore/klingon_templates/languages/c.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/cpp.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/go.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/java.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/javascript.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/nodejs.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/php.gitignore
-!./klingon_templates/gitignore/klingon_templates/languages/python.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/ruby.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/rust.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/swift.gitignore
-# !./klingon_templates/gitignore/klingon_templates/languages/typescript.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/c.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/cpp.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/go.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/java.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/javascript.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/nodejs.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/php.gitignore
+!klingon_templates/gitignore/klingon_templates/languages/python.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/ruby.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/rust.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/swift.gitignore
+# !klingon_templates/gitignore/klingon_templates/languages/typescript.gitignore
 ## end gitignore
 
 ###############################################################################
@@ -82,140 +82,140 @@
 #
 ###############################################################################
 ## github ignores
-# !./klingon_templates/gitignore/github_templates/AL.gitignore
-# !./klingon_templates/gitignore/github_templates/Actionscript.gitignore
-# !./klingon_templates/gitignore/github_templates/Ada.gitignore
-# !./klingon_templates/gitignore/github_templates/Agda.gitignore
-# !./klingon_templates/gitignore/github_templates/Android.gitignore
-# !./klingon_templates/gitignore/github_templates/AppEngine.gitignore
-# !./klingon_templates/gitignore/github_templates/AppceleratorTitanium.gitignore
-# !./klingon_templates/gitignore/github_templates/ArchLinuxPackages.gitignore
-# !./klingon_templates/gitignore/github_templates/Autotools.gitignore
-# !./klingon_templates/gitignore/github_templates/Ballerina.gitignore
-# !./klingon_templates/gitignore/github_templates/C++.gitignore
-# !./klingon_templates/gitignore/github_templates/C.gitignore
-# !./klingon_templates/gitignore/github_templates/CFWheels.gitignore
-# !./klingon_templates/gitignore/github_templates/CMake.gitignore
-# !./klingon_templates/gitignore/github_templates/CONTRIBUTING.md
-# !./klingon_templates/gitignore/github_templates/CUDA.gitignore
-# !./klingon_templates/gitignore/github_templates/CakePHP.gitignore
-# !./klingon_templates/gitignore/github_templates/ChefCookbook.gitignore
-# !./klingon_templates/gitignore/github_templates/Clojure.gitignore@
-# !./klingon_templates/gitignore/github_templates/CodeIgniter.gitignore
-# !./klingon_templates/gitignore/github_templates/CommonLisp.gitignore
-# !./klingon_templates/gitignore/github_templates/Composer.gitignore
-# !./klingon_templates/gitignore/github_templates/Concrete5.gitignore
-# !./klingon_templates/gitignore/github_templates/Coq.gitignore
-# !./klingon_templates/gitignore/github_templates/CraftCMS.gitignore
-# !./klingon_templates/gitignore/github_templates/D.gitignore
-# !./klingon_templates/gitignore/github_templates/DM.gitignore
-# !./klingon_templates/gitignore/github_templates/Dart.gitignore
-# !./klingon_templates/gitignore/github_templates/Delphi.gitignore
-# !./klingon_templates/gitignore/github_templates/Drupal.gitignore
-# !./klingon_templates/gitignore/github_templates/EPiServer.gitignore
-# !./klingon_templates/gitignore/github_templates/Eagle.gitignore
-# !./klingon_templates/gitignore/github_templates/Elisp.gitignore
-# !./klingon_templates/gitignore/github_templates/Elixir.gitignore
-# !./klingon_templates/gitignore/github_templates/Elm.gitignore
-# !./klingon_templates/gitignore/github_templates/Erlang.gitignore
-# !./klingon_templates/gitignore/github_templates/ExpressionEngine.gitignore
-# !./klingon_templates/gitignore/github_templates/ExtJs.gitignore
-# !./klingon_templates/gitignore/github_templates/Fancy.gitignore
-# !./klingon_templates/gitignore/github_templates/Finale.gitignore
-# !./klingon_templates/gitignore/github_templates/FlaxEngine.gitignore
-# !./klingon_templates/gitignore/github_templates/ForceDotCom.gitignore
-# !./klingon_templates/gitignore/github_templates/Fortran.gitignore@
-# !./klingon_templates/gitignore/github_templates/FuelPHP.gitignore
-# !./klingon_templates/gitignore/github_templates/GWT.gitignore
-# !./klingon_templates/gitignore/github_templates/Gcov.gitignore
-# !./klingon_templates/gitignore/github_templates/GitBook.gitignore
-# !./klingon_templates/gitignore/github_templates/GitHubPages.gitignore
-# !./klingon_templates/gitignore/github_templates/Go.gitignore
-# !./klingon_templates/gitignore/github_templates/Godot.gitignore
-# !./klingon_templates/gitignore/github_templates/Gradle.gitignore
-# !./klingon_templates/gitignore/github_templates/Grails.gitignore
-# !./klingon_templates/gitignore/github_templates/Haskell.gitignore
-# !./klingon_templates/gitignore/github_templates/IAR.gitignore
-# !./klingon_templates/gitignore/github_templates/IGORPro.gitignore
-# !./klingon_templates/gitignore/github_templates/Idris.gitignore
-# !./klingon_templates/gitignore/github_templates/JBoss.gitignore
-# !./klingon_templates/gitignore/github_templates/JENKINS_HOME.gitignore
-# !./klingon_templates/gitignore/github_templates/Java.gitignore
-# !./klingon_templates/gitignore/github_templates/Jekyll.gitignore
-# !./klingon_templates/gitignore/github_templates/Joomla.gitignore
-# !./klingon_templates/gitignore/github_templates/Julia.gitignore
-# !./klingon_templates/gitignore/github_templates/KiCad.gitignore
-# !./klingon_templates/gitignore/github_templates/Kohana.gitignore
-# !./klingon_templates/gitignore/github_templates/Kotlin.gitignore@
-# !./klingon_templates/gitignore/github_templates/LabVIEW.gitignore
-# !./klingon_templates/gitignore/github_templates/Laravel.gitignore
-# !./klingon_templates/gitignore/github_templates/Leiningen.gitignore
-# !./klingon_templates/gitignore/github_templates/LemonStand.gitignore
-# !./klingon_templates/gitignore/github_templates/Lilypond.gitignore
-# !./klingon_templates/gitignore/github_templates/Lithium.gitignore
-# !./klingon_templates/gitignore/github_templates/Lua.gitignore
-# !./klingon_templates/gitignore/github_templates/Magento.gitignore
-# !./klingon_templates/gitignore/github_templates/Maven.gitignore
-# !./klingon_templates/gitignore/github_templates/Mercury.gitignore
-# !./klingon_templates/gitignore/github_templates/MetaProgrammingSystem.gitignore
-# !./klingon_templates/gitignore/github_templates/Nanoc.gitignore
-# !./klingon_templates/gitignore/github_templates/Nim.gitignore
-# !./klingon_templates/gitignore/github_templates/Node.gitignore
-# !./klingon_templates/gitignore/github_templates/OCaml.gitignore
-# !./klingon_templates/gitignore/github_templates/Objective-C.gitignore
-# !./klingon_templates/gitignore/github_templates/Opa.gitignore
-# !./klingon_templates/gitignore/github_templates/OpenCart.gitignore
-# !./klingon_templates/gitignore/github_templates/OracleForms.gitignore
-# !./klingon_templates/gitignore/github_templates/Packer.gitignore
-# !./klingon_templates/gitignore/github_templates/Perl.gitignore
-# !./klingon_templates/gitignore/github_templates/Phalcon.gitignore
-# !./klingon_templates/gitignore/github_templates/PlayFramework.gitignore
-# !./klingon_templates/gitignore/github_templates/Plone.gitignore
-# !./klingon_templates/gitignore/github_templates/Prestashop.gitignore
-# !./klingon_templates/gitignore/github_templates/Processing.gitignore
-# !./klingon_templates/gitignore/github_templates/PureScript.gitignore
-# !./klingon_templates/gitignore/github_templates/Python.gitignore
-# !./klingon_templates/gitignore/github_templates/Qooxdoo.gitignore
-# !./klingon_templates/gitignore/github_templates/Qt.gitignore
-# !./klingon_templates/gitignore/github_templates/R.gitignore
-# !./klingon_templates/gitignore/github_templates/ROS.gitignore
-# !./klingon_templates/gitignore/github_templates/Racket.gitignore
-# !./klingon_templates/gitignore/github_templates/Rails.gitignore
-# !./klingon_templates/gitignore/github_templates/Raku.gitignore
-# !./klingon_templates/gitignore/github_templates/RhodesRhomobile.gitignore
-# !./klingon_templates/gitignore/github_templates/Ruby.gitignore
-# !./klingon_templates/gitignore/github_templates/Rust.gitignore
-# !./klingon_templates/gitignore/github_templates/SCons.gitignore
-# !./klingon_templates/gitignore/github_templates/Sass.gitignore
-# !./klingon_templates/gitignore/github_templates/Scala.gitignore
-# !./klingon_templates/gitignore/github_templates/Scheme.gitignore
-# !./klingon_templates/gitignore/github_templates/Scrivener.gitignore
-# !./klingon_templates/gitignore/github_templates/Sdcc.gitignore
-# !./klingon_templates/gitignore/github_templates/SeamGen.gitignore
-# !./klingon_templates/gitignore/github_templates/SketchUp.gitignore
-# !./klingon_templates/gitignore/github_templates/Smalltalk.gitignore
-# !./klingon_templates/gitignore/github_templates/Stella.gitignore
-# !./klingon_templates/gitignore/github_templates/SugarCRM.gitignore
-# !./klingon_templates/gitignore/github_templates/Swift.gitignore
-# !./klingon_templates/gitignore/github_templates/Symfony.gitignore
-# !./klingon_templates/gitignore/github_templates/SymphonyCMS.gitignore
-# !./klingon_templates/gitignore/github_templates/TeX.gitignore
-# !./klingon_templates/gitignore/github_templates/Terraform.gitignore
-# !./klingon_templates/gitignore/github_templates/Textpattern.gitignore
-# !./klingon_templates/gitignore/github_templates/TurboGears2.gitignore
-# !./klingon_templates/gitignore/github_templates/TwinCAT3.gitignore
-# !./klingon_templates/gitignore/github_templates/Typo3.gitignore
-# !./klingon_templates/gitignore/github_templates/Unity.gitignore
-# !./klingon_templates/gitignore/github_templates/UnrealEngine.gitignore
-# !./klingon_templates/gitignore/github_templates/VVVV.gitignore
-# !./klingon_templates/gitignore/github_templates/VisualStudio.gitignore
-# !./klingon_templates/gitignore/github_templates/Waf.gitignore
-# !./klingon_templates/gitignore/github_templates/WordPress.gitignore
-# !./klingon_templates/gitignore/github_templates/Xojo.gitignore
-# !./klingon_templates/gitignore/github_templates/Yeoman.gitignore
-# !./klingon_templates/gitignore/github_templates/Yii.gitignore
-# !./klingon_templates/gitignore/github_templates/ZendFramework.gitignore
-# !./klingon_templates/gitignore/github_templates/Zephir.gitignore
+# !klingon_templates/gitignore/github_templates/AL.gitignore
+# !klingon_templates/gitignore/github_templates/Actionscript.gitignore
+# !klingon_templates/gitignore/github_templates/Ada.gitignore
+# !klingon_templates/gitignore/github_templates/Agda.gitignore
+# !klingon_templates/gitignore/github_templates/Android.gitignore
+# !klingon_templates/gitignore/github_templates/AppEngine.gitignore
+# !klingon_templates/gitignore/github_templates/AppceleratorTitanium.gitignore
+# !klingon_templates/gitignore/github_templates/ArchLinuxPackages.gitignore
+# !klingon_templates/gitignore/github_templates/Autotools.gitignore
+# !klingon_templates/gitignore/github_templates/Ballerina.gitignore
+# !klingon_templates/gitignore/github_templates/C++.gitignore
+# !klingon_templates/gitignore/github_templates/C.gitignore
+# !klingon_templates/gitignore/github_templates/CFWheels.gitignore
+# !klingon_templates/gitignore/github_templates/CMake.gitignore
+# !klingon_templates/gitignore/github_templates/CONTRIBUTING.md
+# !klingon_templates/gitignore/github_templates/CUDA.gitignore
+# !klingon_templates/gitignore/github_templates/CakePHP.gitignore
+# !klingon_templates/gitignore/github_templates/ChefCookbook.gitignore
+# !klingon_templates/gitignore/github_templates/Clojure.gitignore@
+# !klingon_templates/gitignore/github_templates/CodeIgniter.gitignore
+# !klingon_templates/gitignore/github_templates/CommonLisp.gitignore
+# !klingon_templates/gitignore/github_templates/Composer.gitignore
+# !klingon_templates/gitignore/github_templates/Concrete5.gitignore
+# !klingon_templates/gitignore/github_templates/Coq.gitignore
+# !klingon_templates/gitignore/github_templates/CraftCMS.gitignore
+# !klingon_templates/gitignore/github_templates/D.gitignore
+# !klingon_templates/gitignore/github_templates/DM.gitignore
+# !klingon_templates/gitignore/github_templates/Dart.gitignore
+# !klingon_templates/gitignore/github_templates/Delphi.gitignore
+# !klingon_templates/gitignore/github_templates/Drupal.gitignore
+# !klingon_templates/gitignore/github_templates/EPiServer.gitignore
+# !klingon_templates/gitignore/github_templates/Eagle.gitignore
+# !klingon_templates/gitignore/github_templates/Elisp.gitignore
+# !klingon_templates/gitignore/github_templates/Elixir.gitignore
+# !klingon_templates/gitignore/github_templates/Elm.gitignore
+# !klingon_templates/gitignore/github_templates/Erlang.gitignore
+# !klingon_templates/gitignore/github_templates/ExpressionEngine.gitignore
+# !klingon_templates/gitignore/github_templates/ExtJs.gitignore
+# !klingon_templates/gitignore/github_templates/Fancy.gitignore
+# !klingon_templates/gitignore/github_templates/Finale.gitignore
+# !klingon_templates/gitignore/github_templates/FlaxEngine.gitignore
+# !klingon_templates/gitignore/github_templates/ForceDotCom.gitignore
+# !klingon_templates/gitignore/github_templates/Fortran.gitignore@
+# !klingon_templates/gitignore/github_templates/FuelPHP.gitignore
+# !klingon_templates/gitignore/github_templates/GWT.gitignore
+# !klingon_templates/gitignore/github_templates/Gcov.gitignore
+# !klingon_templates/gitignore/github_templates/GitBook.gitignore
+# !klingon_templates/gitignore/github_templates/GitHubPages.gitignore
+# !klingon_templates/gitignore/github_templates/Go.gitignore
+# !klingon_templates/gitignore/github_templates/Godot.gitignore
+# !klingon_templates/gitignore/github_templates/Gradle.gitignore
+# !klingon_templates/gitignore/github_templates/Grails.gitignore
+# !klingon_templates/gitignore/github_templates/Haskell.gitignore
+# !klingon_templates/gitignore/github_templates/IAR.gitignore
+# !klingon_templates/gitignore/github_templates/IGORPro.gitignore
+# !klingon_templates/gitignore/github_templates/Idris.gitignore
+# !klingon_templates/gitignore/github_templates/JBoss.gitignore
+# !klingon_templates/gitignore/github_templates/JENKINS_HOME.gitignore
+# !klingon_templates/gitignore/github_templates/Java.gitignore
+# !klingon_templates/gitignore/github_templates/Jekyll.gitignore
+# !klingon_templates/gitignore/github_templates/Joomla.gitignore
+# !klingon_templates/gitignore/github_templates/Julia.gitignore
+# !klingon_templates/gitignore/github_templates/KiCad.gitignore
+# !klingon_templates/gitignore/github_templates/Kohana.gitignore
+# !klingon_templates/gitignore/github_templates/Kotlin.gitignore@
+# !klingon_templates/gitignore/github_templates/LabVIEW.gitignore
+# !klingon_templates/gitignore/github_templates/Laravel.gitignore
+# !klingon_templates/gitignore/github_templates/Leiningen.gitignore
+# !klingon_templates/gitignore/github_templates/LemonStand.gitignore
+# !klingon_templates/gitignore/github_templates/Lilypond.gitignore
+# !klingon_templates/gitignore/github_templates/Lithium.gitignore
+# !klingon_templates/gitignore/github_templates/Lua.gitignore
+# !klingon_templates/gitignore/github_templates/Magento.gitignore
+# !klingon_templates/gitignore/github_templates/Maven.gitignore
+# !klingon_templates/gitignore/github_templates/Mercury.gitignore
+# !klingon_templates/gitignore/github_templates/MetaProgrammingSystem.gitignore
+# !klingon_templates/gitignore/github_templates/Nanoc.gitignore
+# !klingon_templates/gitignore/github_templates/Nim.gitignore
+# !klingon_templates/gitignore/github_templates/Node.gitignore
+# !klingon_templates/gitignore/github_templates/OCaml.gitignore
+# !klingon_templates/gitignore/github_templates/Objective-C.gitignore
+# !klingon_templates/gitignore/github_templates/Opa.gitignore
+# !klingon_templates/gitignore/github_templates/OpenCart.gitignore
+# !klingon_templates/gitignore/github_templates/OracleForms.gitignore
+# !klingon_templates/gitignore/github_templates/Packer.gitignore
+# !klingon_templates/gitignore/github_templates/Perl.gitignore
+# !klingon_templates/gitignore/github_templates/Phalcon.gitignore
+# !klingon_templates/gitignore/github_templates/PlayFramework.gitignore
+# !klingon_templates/gitignore/github_templates/Plone.gitignore
+# !klingon_templates/gitignore/github_templates/Prestashop.gitignore
+# !klingon_templates/gitignore/github_templates/Processing.gitignore
+# !klingon_templates/gitignore/github_templates/PureScript.gitignore
+# !klingon_templates/gitignore/github_templates/Python.gitignore
+# !klingon_templates/gitignore/github_templates/Qooxdoo.gitignore
+# !klingon_templates/gitignore/github_templates/Qt.gitignore
+# !klingon_templates/gitignore/github_templates/R.gitignore
+# !klingon_templates/gitignore/github_templates/ROS.gitignore
+# !klingon_templates/gitignore/github_templates/Racket.gitignore
+# !klingon_templates/gitignore/github_templates/Rails.gitignore
+# !klingon_templates/gitignore/github_templates/Raku.gitignore
+# !klingon_templates/gitignore/github_templates/RhodesRhomobile.gitignore
+# !klingon_templates/gitignore/github_templates/Ruby.gitignore
+# !klingon_templates/gitignore/github_templates/Rust.gitignore
+# !klingon_templates/gitignore/github_templates/SCons.gitignore
+# !klingon_templates/gitignore/github_templates/Sass.gitignore
+# !klingon_templates/gitignore/github_templates/Scala.gitignore
+# !klingon_templates/gitignore/github_templates/Scheme.gitignore
+# !klingon_templates/gitignore/github_templates/Scrivener.gitignore
+# !klingon_templates/gitignore/github_templates/Sdcc.gitignore
+# !klingon_templates/gitignore/github_templates/SeamGen.gitignore
+# !klingon_templates/gitignore/github_templates/SketchUp.gitignore
+# !klingon_templates/gitignore/github_templates/Smalltalk.gitignore
+# !klingon_templates/gitignore/github_templates/Stella.gitignore
+# !klingon_templates/gitignore/github_templates/SugarCRM.gitignore
+# !klingon_templates/gitignore/github_templates/Swift.gitignore
+# !klingon_templates/gitignore/github_templates/Symfony.gitignore
+# !klingon_templates/gitignore/github_templates/SymphonyCMS.gitignore
+# !klingon_templates/gitignore/github_templates/TeX.gitignore
+# !klingon_templates/gitignore/github_templates/Terraform.gitignore
+# !klingon_templates/gitignore/github_templates/Textpattern.gitignore
+# !klingon_templates/gitignore/github_templates/TurboGears2.gitignore
+# !klingon_templates/gitignore/github_templates/TwinCAT3.gitignore
+# !klingon_templates/gitignore/github_templates/Typo3.gitignore
+# !klingon_templates/gitignore/github_templates/Unity.gitignore
+# !klingon_templates/gitignore/github_templates/UnrealEngine.gitignore
+# !klingon_templates/gitignore/github_templates/VVVV.gitignore
+# !klingon_templates/gitignore/github_templates/VisualStudio.gitignore
+# !klingon_templates/gitignore/github_templates/Waf.gitignore
+# !klingon_templates/gitignore/github_templates/WordPress.gitignore
+# !klingon_templates/gitignore/github_templates/Xojo.gitignore
+# !klingon_templates/gitignore/github_templates/Yeoman.gitignore
+# !klingon_templates/gitignore/github_templates/Yii.gitignore
+# !klingon_templates/gitignore/github_templates/ZendFramework.gitignore
+# !klingon_templates/gitignore/github_templates/Zephir.gitignore
 ## end gitignore
 
 ###############################################################################
@@ -230,76 +230,76 @@
 #
 ###############################################################################
 ## github global ignores
-# !./klingon_templates/gitignore/github_templates/Global/AL.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Anjuta.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Ansible.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Archives.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Backup.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Bazaar.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/BricxCC.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Calabash.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Cloud9.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/CodeKit.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/CVS.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/DartEditor.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Diff.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Dreamweaver.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Dropbox.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Eclipse.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/EiffelStudio.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Emacs.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Ensime.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Espresso.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/FlexBuilder.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/GPG.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Images.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/JDeveloper.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/JEnv.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/JetBrains.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Kate.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/KDevelop4.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Lazarus.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/LibreOffice.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Linux.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/LyX.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/macOS.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/MATLAB.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Mercurial.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Metals.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/MicrosoftOffice.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/ModelSim.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Momentics.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/MonoDevelop.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/NetBeans.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Ninja.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/NotepadPP.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Octave.gitignore@
-# !./klingon_templates/gitignore/github_templates/Global/Otto.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Patch.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/PSoCCreator.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/PuTTY.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/README.md
-# !./klingon_templates/gitignore/github_templates/Global/Redcar.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Redis.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/SBT.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/SlickEdit.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Stata.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/SublimeText.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/SVN.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Syncthing.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/SynopsysVCS.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Tags.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/TextMate.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/TortoiseGit.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Vagrant.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Vim.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/VirtualEnv.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Virtuoso.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/VisualStudioCode.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/WebMethods.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Windows.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/Xcode.gitignore
-# !./klingon_templates/gitignore/github_templates/Global/XilinxISE.gitignore
+# !klingon_templates/gitignore/github_templates/Global/AL.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Anjuta.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Ansible.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Archives.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Backup.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Bazaar.gitignore
+# !klingon_templates/gitignore/github_templates/Global/BricxCC.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Calabash.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Cloud9.gitignore
+# !klingon_templates/gitignore/github_templates/Global/CodeKit.gitignore
+# !klingon_templates/gitignore/github_templates/Global/CVS.gitignore
+# !klingon_templates/gitignore/github_templates/Global/DartEditor.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Diff.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Dreamweaver.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Dropbox.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Eclipse.gitignore
+# !klingon_templates/gitignore/github_templates/Global/EiffelStudio.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Emacs.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Ensime.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Espresso.gitignore
+# !klingon_templates/gitignore/github_templates/Global/FlexBuilder.gitignore
+# !klingon_templates/gitignore/github_templates/Global/GPG.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Images.gitignore
+# !klingon_templates/gitignore/github_templates/Global/JDeveloper.gitignore
+# !klingon_templates/gitignore/github_templates/Global/JEnv.gitignore
+# !klingon_templates/gitignore/github_templates/Global/JetBrains.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Kate.gitignore
+# !klingon_templates/gitignore/github_templates/Global/KDevelop4.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Lazarus.gitignore
+# !klingon_templates/gitignore/github_templates/Global/LibreOffice.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Linux.gitignore
+# !klingon_templates/gitignore/github_templates/Global/LyX.gitignore
+# !klingon_templates/gitignore/github_templates/Global/macOS.gitignore
+# !klingon_templates/gitignore/github_templates/Global/MATLAB.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Mercurial.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Metals.gitignore
+# !klingon_templates/gitignore/github_templates/Global/MicrosoftOffice.gitignore
+# !klingon_templates/gitignore/github_templates/Global/ModelSim.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Momentics.gitignore
+# !klingon_templates/gitignore/github_templates/Global/MonoDevelop.gitignore
+# !klingon_templates/gitignore/github_templates/Global/NetBeans.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Ninja.gitignore
+# !klingon_templates/gitignore/github_templates/Global/NotepadPP.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Octave.gitignore@
+# !klingon_templates/gitignore/github_templates/Global/Otto.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Patch.gitignore
+# !klingon_templates/gitignore/github_templates/Global/PSoCCreator.gitignore
+# !klingon_templates/gitignore/github_templates/Global/PuTTY.gitignore
+# !klingon_templates/gitignore/github_templates/Global/README.md
+# !klingon_templates/gitignore/github_templates/Global/Redcar.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Redis.gitignore
+# !klingon_templates/gitignore/github_templates/Global/SBT.gitignore
+# !klingon_templates/gitignore/github_templates/Global/SlickEdit.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Stata.gitignore
+# !klingon_templates/gitignore/github_templates/Global/SublimeText.gitignore
+# !klingon_templates/gitignore/github_templates/Global/SVN.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Syncthing.gitignore
+# !klingon_templates/gitignore/github_templates/Global/SynopsysVCS.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Tags.gitignore
+# !klingon_templates/gitignore/github_templates/Global/TextMate.gitignore
+# !klingon_templates/gitignore/github_templates/Global/TortoiseGit.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Vagrant.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Vim.gitignore
+# !klingon_templates/gitignore/github_templates/Global/VirtualEnv.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Virtuoso.gitignore
+# !klingon_templates/gitignore/github_templates/Global/VisualStudioCode.gitignore
+# !klingon_templates/gitignore/github_templates/Global/WebMethods.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Windows.gitignore
+# !klingon_templates/gitignore/github_templates/Global/Xcode.gitignore
+# !klingon_templates/gitignore/github_templates/Global/XilinxISE.gitignore
 ## end gitignore
 
 ###############################################################################
@@ -314,59 +314,59 @@
 #
 ###############################################################################
 ## github community ignores
-# !./klingon_templates/gitignore/github_templates/community/Alteryx.gitignore
-# !./klingon_templates/gitignore/github_templates/community/AltiumDesigner.gitignore
-# !./klingon_templates/gitignore/github_templates/community/AutoIt.gitignore
-# !./klingon_templates/gitignore/github_templates/community/AWS/CDK.gitignore
-# !./klingon_templates/gitignore/github_templates/community/AWS/SAM.gitignore
-# !./klingon_templates/gitignore/github_templates/community/B4X.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Bazel.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Beef.gitignore
-# !./klingon_templates/gitignore/github_templates/community/DotNet/core.gitignore
-# !./klingon_templates/gitignore/github_templates/community/DotNet/InforCMS.gitignore
-# !./klingon_templates/gitignore/github_templates/community/DotNet/Kentico.gitignore
-# !./klingon_templates/gitignore/github_templates/community/DotNet/Umbraco.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Elixir/Phoenix.gitignore
-# !./klingon_templates/gitignore/github_templates/community/embedded/AtmelStudio.gitignore
-# !./klingon_templates/gitignore/github_templates/community/embedded/esp-idf.gitignore
-# !./klingon_templates/gitignore/github_templates/community/embedded/IAR_EWARM.gitignore
-# !./klingon_templates/gitignore/github_templates/community/embedded/uVision.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Exercism.gitignore
-# !./klingon_templates/gitignore/github_templates/community/GNOME/GNOMEShellExtension.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Golang/Go.AllowList.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Golang/Hugo.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Gretl.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Java/JBoss4.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Java/JBoss6.gitignore
-# !./klingon_templates/gitignore/github_templates/community/JavaScript/Cordova.gitignore
-# !./klingon_templates/gitignore/github_templates/community/JavaScript/Meteor.gitignore
-# !./klingon_templates/gitignore/github_templates/community/JavaScript/NWjs.gitignore
-# !./klingon_templates/gitignore/github_templates/community/JavaScript/Vue.gitignore
-# !./klingon_templates/gitignore/github_templates/community/LensStudio.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Linux/Snap.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Logtalk.gitignore
-# !./klingon_templates/gitignore/github_templates/community/NasaSpecsIntact.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Nix.gitignore
-# !./klingon_templates/gitignore/github_templates/community/OpenSSL.gitignore
-# !./klingon_templates/gitignore/github_templates/community/PHP/Bitrix.gitignore
-# !./klingon_templates/gitignore/github_templates/community/PHP/CodeSniffer.gitignore
-# !./klingon_templates/gitignore/github_templates/community/PHP/Drupal7.gitignore
-# !./klingon_templates/gitignore/github_templates/community/PHP/Jigsaw.gitignore
-# !./klingon_templates/gitignore/github_templates/community/PHP/Magento1.gitignore
-# !./klingon_templates/gitignore/github_templates/community/PHP/Magento2.gitignore
-# !./klingon_templates/gitignore/github_templates/community/PHP/Pimcore.gitignore
-# !./klingon_templates/gitignore/github_templates/community/PHP/ThinkPHP.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Puppet.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Python/JupyterNotebooks.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Python/Nikola.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Racket.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Red.gitignore
-# !./klingon_templates/gitignore/github_templates/community/ROS2.gitignore
-# !./klingon_templates/gitignore/github_templates/community/SPFx.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Splunk.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Strapi.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Toit.gitignore
-# !./klingon_templates/gitignore/github_templates/community/UiPath.gitignore
-# !./klingon_templates/gitignore/github_templates/community/V.gitignore
-# !./klingon_templates/gitignore/github_templates/community/Xilinx.gitignore
+# !klingon_templates/gitignore/github_templates/community/Alteryx.gitignore
+# !klingon_templates/gitignore/github_templates/community/AltiumDesigner.gitignore
+# !klingon_templates/gitignore/github_templates/community/AutoIt.gitignore
+# !klingon_templates/gitignore/github_templates/community/AWS/CDK.gitignore
+# !klingon_templates/gitignore/github_templates/community/AWS/SAM.gitignore
+# !klingon_templates/gitignore/github_templates/community/B4X.gitignore
+# !klingon_templates/gitignore/github_templates/community/Bazel.gitignore
+# !klingon_templates/gitignore/github_templates/community/Beef.gitignore
+# !klingon_templates/gitignore/github_templates/community/DotNet/core.gitignore
+# !klingon_templates/gitignore/github_templates/community/DotNet/InforCMS.gitignore
+# !klingon_templates/gitignore/github_templates/community/DotNet/Kentico.gitignore
+# !klingon_templates/gitignore/github_templates/community/DotNet/Umbraco.gitignore
+# !klingon_templates/gitignore/github_templates/community/Elixir/Phoenix.gitignore
+# !klingon_templates/gitignore/github_templates/community/embedded/AtmelStudio.gitignore
+# !klingon_templates/gitignore/github_templates/community/embedded/esp-idf.gitignore
+# !klingon_templates/gitignore/github_templates/community/embedded/IAR_EWARM.gitignore
+# !klingon_templates/gitignore/github_templates/community/embedded/uVision.gitignore
+# !klingon_templates/gitignore/github_templates/community/Exercism.gitignore
+# !klingon_templates/gitignore/github_templates/community/GNOME/GNOMEShellExtension.gitignore
+# !klingon_templates/gitignore/github_templates/community/Golang/Go.AllowList.gitignore
+# !klingon_templates/gitignore/github_templates/community/Golang/Hugo.gitignore
+# !klingon_templates/gitignore/github_templates/community/Gretl.gitignore
+# !klingon_templates/gitignore/github_templates/community/Java/JBoss4.gitignore
+# !klingon_templates/gitignore/github_templates/community/Java/JBoss6.gitignore
+# !klingon_templates/gitignore/github_templates/community/JavaScript/Cordova.gitignore
+# !klingon_templates/gitignore/github_templates/community/JavaScript/Meteor.gitignore
+# !klingon_templates/gitignore/github_templates/community/JavaScript/NWjs.gitignore
+# !klingon_templates/gitignore/github_templates/community/JavaScript/Vue.gitignore
+# !klingon_templates/gitignore/github_templates/community/LensStudio.gitignore
+# !klingon_templates/gitignore/github_templates/community/Linux/Snap.gitignore
+# !klingon_templates/gitignore/github_templates/community/Logtalk.gitignore
+# !klingon_templates/gitignore/github_templates/community/NasaSpecsIntact.gitignore
+# !klingon_templates/gitignore/github_templates/community/Nix.gitignore
+# !klingon_templates/gitignore/github_templates/community/OpenSSL.gitignore
+# !klingon_templates/gitignore/github_templates/community/PHP/Bitrix.gitignore
+# !klingon_templates/gitignore/github_templates/community/PHP/CodeSniffer.gitignore
+# !klingon_templates/gitignore/github_templates/community/PHP/Drupal7.gitignore
+# !klingon_templates/gitignore/github_templates/community/PHP/Jigsaw.gitignore
+# !klingon_templates/gitignore/github_templates/community/PHP/Magento1.gitignore
+# !klingon_templates/gitignore/github_templates/community/PHP/Magento2.gitignore
+# !klingon_templates/gitignore/github_templates/community/PHP/Pimcore.gitignore
+# !klingon_templates/gitignore/github_templates/community/PHP/ThinkPHP.gitignore
+# !klingon_templates/gitignore/github_templates/community/Puppet.gitignore
+# !klingon_templates/gitignore/github_templates/community/Python/JupyterNotebooks.gitignore
+# !klingon_templates/gitignore/github_templates/community/Python/Nikola.gitignore
+# !klingon_templates/gitignore/github_templates/community/Racket.gitignore
+# !klingon_templates/gitignore/github_templates/community/Red.gitignore
+# !klingon_templates/gitignore/github_templates/community/ROS2.gitignore
+# !klingon_templates/gitignore/github_templates/community/SPFx.gitignore
+# !klingon_templates/gitignore/github_templates/community/Splunk.gitignore
+# !klingon_templates/gitignore/github_templates/community/Strapi.gitignore
+# !klingon_templates/gitignore/github_templates/community/Toit.gitignore
+# !klingon_templates/gitignore/github_templates/community/UiPath.gitignore
+# !klingon_templates/gitignore/github_templates/community/V.gitignore
+# !klingon_templates/gitignore/github_templates/community/Xilinx.gitignore
 ## end gitignore
