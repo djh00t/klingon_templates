@@ -69,7 +69,7 @@ def build_gitignore():
             if stripped_line.startswith("!"):
                 # If the line starts with '!' (include directive), add the file
                 # and comments to the list
-                included_files.append((line[1:], current_comment))
+                included_files.append((stripped_line[1:], current_comment))
                 # Reset current comments after including a file
                 current_comment = []
             else:
@@ -106,11 +106,10 @@ def build_gitignore():
                         elif not in_header:
                             out_f.write(line)
                 out_f.write(f"## {file_path.strip()} end\n\n")
-            for comment in comments:
-                # Write each comment to the .gitignore file
-                out_f.write(comment)
+                for comment in comments:
+                    # Write each comment to the .gitignore file
+                    out_f.write(comment + "\n")
 
 
 if __name__ == "__main__":
-    # Call the build_gitignore function if the script is executed directly
     build_gitignore()
