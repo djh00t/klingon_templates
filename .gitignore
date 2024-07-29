@@ -1,0 +1,355 @@
+###############################################################################
+# Core .gitignore patterns that should apply to all projects
+#
+# This file is part of the Klingon Tools project:
+# https:/github.com/djh00t/klingon_tools/tree/main/repo_templates/gitignore
+#
+# Created by: David Hooton <klingon_tools+david@hooton.org>
+# Date: 26-07-2024
+#
+# Usage: Copy this file to the root of your project and rename it to .gitignore
+#        Uncomment the include lines for the languages and environments you
+#        need. DO NOT symlink into this file, it is designed to be customised
+#        and could be overwritten if updated.
+#
+# License: This project is licensed under the MIT License
+#          https:/opensource.org/licenses/MIT
+###############################################################################
+
+# Include core ignores
+!gitignore/klingon_templates/core/core.gitignore
+
+# Project-specific ignores can be added here
+
+
+
+# Include OS/environment-specific ignores (uncomment as needed)
+# !gitignore/klingon_templates/environments/docker.gitignore
+# !gitignore/klingon_templates/environments/linux.gitignore
+!gitignore/klingon_templates/environments/macos.gitignore
+!gitignore/klingon_templates/environments/windows.gitignore
+
+# Include IDE-specific ignores (uncomment as needed)
+!gitignore/klingon_templates/ide/aider.gitignore
+# !gitignore/klingon_templates/ide/eclipse.gitignore
+# !gitignore/klingon_templates/ide/emacs.gitignore
+# !gitignore/klingon_templates/ide/jetbrains.gitignore
+# !gitignore/klingon_templates/ide/nano.gitignore
+# !gitignore/klingon_templates/ide/sublime.gitignore
+# !gitignore/klingon_templates/ide/vi.gitignore
+# !gitignore/klingon_templates/ide/vim.gitignore
+!gitignore/klingon_templates/ide/vscode.gitignore
+
+# Include shell-specific ignores (uncomment as needed)
+!gitignore/klingon_templates/shells/bash.gitignore
+# !gitignore/klingon_templates/shells/powershell.gitignore
+# !gitignore/klingon_templates/shells/zsh.gitignore
+
+# Include language-specific ignores (uncomment as needed)
+# !gitignore/klingon_templates/languages/c.gitignore
+# !gitignore/klingon_templates/languages/cpp.gitignore
+# !gitignore/klingon_templates/languages/go.gitignore
+# !gitignore/klingon_templates/languages/java.gitignore
+# !gitignore/klingon_templates/languages/javascript.gitignore
+# !gitignore/klingon_templates/languages/nodejs.gitignore
+# !gitignore/klingon_templates/languages/php.gitignore
+!gitignore/klingon_templates/languages/python.gitignore
+# !gitignore/klingon_templates/languages/ruby.gitignore
+# !gitignore/klingon_templates/languages/rust.gitignore
+# !gitignore/klingon_templates/languages/swift.gitignore
+# !gitignore/klingon_templates/languages/typescript.gitignore
+
+###############################################################################
+#
+# GitHub Standard .gitignore templates from:
+# https:/github.com/github/gitignore
+#
+# The root folder contains templates in common use, to help people get started
+# with popular programming languages and technologies. These define a
+# meaningful set of rules to help get started, and ensure you are not
+# committing unimportant files into your repository.
+#
+###############################################################################
+# !gitignore/github_templates/AL.gitignore
+# !gitignore/github_templates/Actionscript.gitignore
+# !gitignore/github_templates/Ada.gitignore
+# !gitignore/github_templates/Agda.gitignore
+# !gitignore/github_templates/Android.gitignore
+# !gitignore/github_templates/AppEngine.gitignore
+# !gitignore/github_templates/AppceleratorTitanium.gitignore
+# !gitignore/github_templates/ArchLinuxPackages.gitignore
+# !gitignore/github_templates/Autotools.gitignore
+# !gitignore/github_templates/Ballerina.gitignore
+# !gitignore/github_templates/C++.gitignore
+# !gitignore/github_templates/C.gitignore
+# !gitignore/github_templates/CFWheels.gitignore
+# !gitignore/github_templates/CMake.gitignore
+# !gitignore/github_templates/CONTRIBUTING.md
+# !gitignore/github_templates/CUDA.gitignore
+# !gitignore/github_templates/CakePHP.gitignore
+# !gitignore/github_templates/ChefCookbook.gitignore
+# !gitignore/github_templates/Clojure.gitignore@
+# !gitignore/github_templates/CodeIgniter.gitignore
+# !gitignore/github_templates/CommonLisp.gitignore
+# !gitignore/github_templates/Composer.gitignore
+# !gitignore/github_templates/Concrete5.gitignore
+# !gitignore/github_templates/Coq.gitignore
+# !gitignore/github_templates/CraftCMS.gitignore
+# !gitignore/github_templates/D.gitignore
+# !gitignore/github_templates/DM.gitignore
+# !gitignore/github_templates/Dart.gitignore
+# !gitignore/github_templates/Delphi.gitignore
+# !gitignore/github_templates/Drupal.gitignore
+# !gitignore/github_templates/EPiServer.gitignore
+# !gitignore/github_templates/Eagle.gitignore
+# !gitignore/github_templates/Elisp.gitignore
+# !gitignore/github_templates/Elixir.gitignore
+# !gitignore/github_templates/Elm.gitignore
+# !gitignore/github_templates/Erlang.gitignore
+# !gitignore/github_templates/ExpressionEngine.gitignore
+# !gitignore/github_templates/ExtJs.gitignore
+# !gitignore/github_templates/Fancy.gitignore
+# !gitignore/github_templates/Finale.gitignore
+# !gitignore/github_templates/FlaxEngine.gitignore
+# !gitignore/github_templates/ForceDotCom.gitignore
+# !gitignore/github_templates/Fortran.gitignore@
+# !gitignore/github_templates/FuelPHP.gitignore
+# !gitignore/github_templates/GWT.gitignore
+# !gitignore/github_templates/Gcov.gitignore
+# !gitignore/github_templates/GitBook.gitignore
+# !gitignore/github_templates/GitHubPages.gitignore
+# !gitignore/github_templates/Go.gitignore
+# !gitignore/github_templates/Godot.gitignore
+# !gitignore/github_templates/Gradle.gitignore
+# !gitignore/github_templates/Grails.gitignore
+# !gitignore/github_templates/Haskell.gitignore
+# !gitignore/github_templates/IAR.gitignore
+# !gitignore/github_templates/IGORPro.gitignore
+# !gitignore/github_templates/Idris.gitignore
+# !gitignore/github_templates/JBoss.gitignore
+# !gitignore/github_templates/JENKINS_HOME.gitignore
+# !gitignore/github_templates/Java.gitignore
+# !gitignore/github_templates/Jekyll.gitignore
+# !gitignore/github_templates/Joomla.gitignore
+# !gitignore/github_templates/Julia.gitignore
+# !gitignore/github_templates/KiCad.gitignore
+# !gitignore/github_templates/Kohana.gitignore
+# !gitignore/github_templates/Kotlin.gitignore@
+# !gitignore/github_templates/LabVIEW.gitignore
+# !gitignore/github_templates/Laravel.gitignore
+# !gitignore/github_templates/Leiningen.gitignore
+# !gitignore/github_templates/LemonStand.gitignore
+# !gitignore/github_templates/Lilypond.gitignore
+# !gitignore/github_templates/Lithium.gitignore
+# !gitignore/github_templates/Lua.gitignore
+# !gitignore/github_templates/Magento.gitignore
+# !gitignore/github_templates/Maven.gitignore
+# !gitignore/github_templates/Mercury.gitignore
+# !gitignore/github_templates/MetaProgrammingSystem.gitignore
+# !gitignore/github_templates/Nanoc.gitignore
+# !gitignore/github_templates/Nim.gitignore
+# !gitignore/github_templates/Node.gitignore
+# !gitignore/github_templates/OCaml.gitignore
+# !gitignore/github_templates/Objective-C.gitignore
+# !gitignore/github_templates/Opa.gitignore
+# !gitignore/github_templates/OpenCart.gitignore
+# !gitignore/github_templates/OracleForms.gitignore
+# !gitignore/github_templates/Packer.gitignore
+# !gitignore/github_templates/Perl.gitignore
+# !gitignore/github_templates/Phalcon.gitignore
+# !gitignore/github_templates/PlayFramework.gitignore
+# !gitignore/github_templates/Plone.gitignore
+# !gitignore/github_templates/Prestashop.gitignore
+# !gitignore/github_templates/Processing.gitignore
+# !gitignore/github_templates/PureScript.gitignore
+# !gitignore/github_templates/Python.gitignore
+# !gitignore/github_templates/Qooxdoo.gitignore
+# !gitignore/github_templates/Qt.gitignore
+# !gitignore/github_templates/R.gitignore
+# !gitignore/github_templates/ROS.gitignore
+# !gitignore/github_templates/Racket.gitignore
+# !gitignore/github_templates/Rails.gitignore
+# !gitignore/github_templates/Raku.gitignore
+# !gitignore/github_templates/RhodesRhomobile.gitignore
+# !gitignore/github_templates/Ruby.gitignore
+# !gitignore/github_templates/Rust.gitignore
+# !gitignore/github_templates/SCons.gitignore
+# !gitignore/github_templates/Sass.gitignore
+# !gitignore/github_templates/Scala.gitignore
+# !gitignore/github_templates/Scheme.gitignore
+# !gitignore/github_templates/Scrivener.gitignore
+# !gitignore/github_templates/Sdcc.gitignore
+# !gitignore/github_templates/SeamGen.gitignore
+# !gitignore/github_templates/SketchUp.gitignore
+# !gitignore/github_templates/Smalltalk.gitignore
+# !gitignore/github_templates/Stella.gitignore
+# !gitignore/github_templates/SugarCRM.gitignore
+# !gitignore/github_templates/Swift.gitignore
+# !gitignore/github_templates/Symfony.gitignore
+# !gitignore/github_templates/SymphonyCMS.gitignore
+# !gitignore/github_templates/TeX.gitignore
+# !gitignore/github_templates/Terraform.gitignore
+# !gitignore/github_templates/Textpattern.gitignore
+# !gitignore/github_templates/TurboGears2.gitignore
+# !gitignore/github_templates/TwinCAT3.gitignore
+# !gitignore/github_templates/Typo3.gitignore
+# !gitignore/github_templates/Unity.gitignore
+# !gitignore/github_templates/UnrealEngine.gitignore
+# !gitignore/github_templates/VVVV.gitignore
+# !gitignore/github_templates/VisualStudio.gitignore
+# !gitignore/github_templates/Waf.gitignore
+# !gitignore/github_templates/WordPress.gitignore
+# !gitignore/github_templates/Xojo.gitignore
+# !gitignore/github_templates/Yeoman.gitignore
+# !gitignore/github_templates/Yii.gitignore
+# !gitignore/github_templates/ZendFramework.gitignore
+# !gitignore/github_templates/Zephir.gitignore
+
+###############################################################################
+#
+# GitHub Global .gitignore templates from:
+# https:/github.com/github/gitignore/Global
+#
+# Global contains templates for various editors, tools and operating systems
+# that can be used in different situations. It is recommended that you either
+# add these to your global template or merge these rules into your
+# project-specific templates if you want to use them permanently.
+#
+###############################################################################
+# !gitignore/github_templates/Global/AL.gitignore
+# !gitignore/github_templates/Global/Anjuta.gitignore
+# !gitignore/github_templates/Global/Ansible.gitignore
+# !gitignore/github_templates/Global/Archives.gitignore
+# !gitignore/github_templates/Global/Backup.gitignore
+# !gitignore/github_templates/Global/Bazaar.gitignore
+# !gitignore/github_templates/Global/BricxCC.gitignore
+# !gitignore/github_templates/Global/Calabash.gitignore
+# !gitignore/github_templates/Global/Cloud9.gitignore
+# !gitignore/github_templates/Global/CodeKit.gitignore
+# !gitignore/github_templates/Global/CVS.gitignore
+# !gitignore/github_templates/Global/DartEditor.gitignore
+# !gitignore/github_templates/Global/Diff.gitignore
+# !gitignore/github_templates/Global/Dreamweaver.gitignore
+# !gitignore/github_templates/Global/Dropbox.gitignore
+# !gitignore/github_templates/Global/Eclipse.gitignore
+# !gitignore/github_templates/Global/EiffelStudio.gitignore
+# !gitignore/github_templates/Global/Emacs.gitignore
+# !gitignore/github_templates/Global/Ensime.gitignore
+# !gitignore/github_templates/Global/Espresso.gitignore
+# !gitignore/github_templates/Global/FlexBuilder.gitignore
+# !gitignore/github_templates/Global/GPG.gitignore
+# !gitignore/github_templates/Global/Images.gitignore
+# !gitignore/github_templates/Global/JDeveloper.gitignore
+# !gitignore/github_templates/Global/JEnv.gitignore
+# !gitignore/github_templates/Global/JetBrains.gitignore
+# !gitignore/github_templates/Global/Kate.gitignore
+# !gitignore/github_templates/Global/KDevelop4.gitignore
+# !gitignore/github_templates/Global/Lazarus.gitignore
+# !gitignore/github_templates/Global/LibreOffice.gitignore
+# !gitignore/github_templates/Global/Linux.gitignore
+# !gitignore/github_templates/Global/LyX.gitignore
+# !gitignore/github_templates/Global/macOS.gitignore
+# !gitignore/github_templates/Global/MATLAB.gitignore
+# !gitignore/github_templates/Global/Mercurial.gitignore
+# !gitignore/github_templates/Global/Metals.gitignore
+# !gitignore/github_templates/Global/MicrosoftOffice.gitignore
+# !gitignore/github_templates/Global/ModelSim.gitignore
+# !gitignore/github_templates/Global/Momentics.gitignore
+# !gitignore/github_templates/Global/MonoDevelop.gitignore
+# !gitignore/github_templates/Global/NetBeans.gitignore
+# !gitignore/github_templates/Global/Ninja.gitignore
+# !gitignore/github_templates/Global/NotepadPP.gitignore
+# !gitignore/github_templates/Global/Octave.gitignore@
+# !gitignore/github_templates/Global/Otto.gitignore
+# !gitignore/github_templates/Global/Patch.gitignore
+# !gitignore/github_templates/Global/PSoCCreator.gitignore
+# !gitignore/github_templates/Global/PuTTY.gitignore
+# !gitignore/github_templates/Global/README.md
+# !gitignore/github_templates/Global/Redcar.gitignore
+# !gitignore/github_templates/Global/Redis.gitignore
+# !gitignore/github_templates/Global/SBT.gitignore
+# !gitignore/github_templates/Global/SlickEdit.gitignore
+# !gitignore/github_templates/Global/Stata.gitignore
+# !gitignore/github_templates/Global/SublimeText.gitignore
+# !gitignore/github_templates/Global/SVN.gitignore
+# !gitignore/github_templates/Global/Syncthing.gitignore
+# !gitignore/github_templates/Global/SynopsysVCS.gitignore
+# !gitignore/github_templates/Global/Tags.gitignore
+# !gitignore/github_templates/Global/TextMate.gitignore
+# !gitignore/github_templates/Global/TortoiseGit.gitignore
+# !gitignore/github_templates/Global/Vagrant.gitignore
+# !gitignore/github_templates/Global/Vim.gitignore
+# !gitignore/github_templates/Global/VirtualEnv.gitignore
+# !gitignore/github_templates/Global/Virtuoso.gitignore
+# !gitignore/github_templates/Global/VisualStudioCode.gitignore
+# !gitignore/github_templates/Global/WebMethods.gitignore
+# !gitignore/github_templates/Global/Windows.gitignore
+# !gitignore/github_templates/Global/Xcode.gitignore
+# !gitignore/github_templates/Global/XilinxISE.gitignore
+
+###############################################################################
+#
+# GitHub Community Contributed .gitignore templates from:
+# https:/github.com/github/gitignore/community
+#
+# Community contains specialized templates for other popular languages, tools
+# and project, which don't currently belong in the mainstream templates. These
+# should be added to your project-specific templates when you decide to adopt
+# the framework or tool.
+#
+###############################################################################
+# !gitignore/github_templates/community/Alteryx.gitignore
+# !gitignore/github_templates/community/AltiumDesigner.gitignore
+# !gitignore/github_templates/community/AutoIt.gitignore
+# !gitignore/github_templates/community/AWS/CDK.gitignore
+# !gitignore/github_templates/community/AWS/SAM.gitignore
+# !gitignore/github_templates/community/B4X.gitignore
+# !gitignore/github_templates/community/Bazel.gitignore
+# !gitignore/github_templates/community/Beef.gitignore
+# !gitignore/github_templates/community/DotNet/core.gitignore
+# !gitignore/github_templates/community/DotNet/InforCMS.gitignore
+# !gitignore/github_templates/community/DotNet/Kentico.gitignore
+# !gitignore/github_templates/community/DotNet/Umbraco.gitignore
+# !gitignore/github_templates/community/Elixir/Phoenix.gitignore
+# !gitignore/github_templates/community/embedded/AtmelStudio.gitignore
+# !gitignore/github_templates/community/embedded/esp-idf.gitignore
+# !gitignore/github_templates/community/embedded/IAR_EWARM.gitignore
+# !gitignore/github_templates/community/embedded/uVision.gitignore
+# !gitignore/github_templates/community/Exercism.gitignore
+# !gitignore/github_templates/community/GNOME/GNOMEShellExtension.gitignore
+# !gitignore/github_templates/community/Golang/Go.AllowList.gitignore
+# !gitignore/github_templates/community/Golang/Hugo.gitignore
+# !gitignore/github_templates/community/Gretl.gitignore
+# !gitignore/github_templates/community/Java/JBoss4.gitignore
+# !gitignore/github_templates/community/Java/JBoss6.gitignore
+# !gitignore/github_templates/community/JavaScript/Cordova.gitignore
+# !gitignore/github_templates/community/JavaScript/Meteor.gitignore
+# !gitignore/github_templates/community/JavaScript/NWjs.gitignore
+# !gitignore/github_templates/community/JavaScript/Vue.gitignore
+# !gitignore/github_templates/community/LensStudio.gitignore
+# !gitignore/github_templates/community/Linux/Snap.gitignore
+# !gitignore/github_templates/community/Logtalk.gitignore
+# !gitignore/github_templates/community/NasaSpecsIntact.gitignore
+# !gitignore/github_templates/community/Nix.gitignore
+# !gitignore/github_templates/community/OpenSSL.gitignore
+# !gitignore/github_templates/community/PHP/Bitrix.gitignore
+# !gitignore/github_templates/community/PHP/CodeSniffer.gitignore
+# !gitignore/github_templates/community/PHP/Drupal7.gitignore
+# !gitignore/github_templates/community/PHP/Jigsaw.gitignore
+# !gitignore/github_templates/community/PHP/Magento1.gitignore
+# !gitignore/github_templates/community/PHP/Magento2.gitignore
+# !gitignore/github_templates/community/PHP/Pimcore.gitignore
+# !gitignore/github_templates/community/PHP/ThinkPHP.gitignore
+# !gitignore/github_templates/community/Puppet.gitignore
+# !gitignore/github_templates/community/Python/JupyterNotebooks.gitignore
+# !gitignore/github_templates/community/Python/Nikola.gitignore
+# !gitignore/github_templates/community/Racket.gitignore
+# !gitignore/github_templates/community/Red.gitignore
+# !gitignore/github_templates/community/ROS2.gitignore
+# !gitignore/github_templates/community/SPFx.gitignore
+# !gitignore/github_templates/community/Splunk.gitignore
+# !gitignore/github_templates/community/Strapi.gitignore
+# !gitignore/github_templates/community/Toit.gitignore
+# !gitignore/github_templates/community/UiPath.gitignore
+# !gitignore/github_templates/community/V.gitignore
+# !gitignore/github_templates/community/Xilinx.gitignore
