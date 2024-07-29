@@ -154,12 +154,31 @@ def ensure_project_gitignore_exists():
     if not os.path.exists(project_gitignore_path):
         with open(project_gitignore_path, "w") as file:
             file.write(
-                "# This is your project-specific .gitignore file.\n"
-                "# Add any project-specific ignore rules here.\n"
-                "# This file will be included in the main .gitignore file.\n\n"
-                "# Project-specific gitignore rules\n\n"
-                "# Don't add aider configs, logs, caches etc\n"
-                ".aider*\n"
+                "#############################################################"
+                "##################\n"
+                "# Core .gitignore patterns that should apply to all "
+                "projects\n"
+                "#\n"
+                "# This file is part of the Klingon Tools project:\n"
+                "# https:/github.com/djh00t/klingon_tools/tree/main/"
+                "repo_templates/gitignore\n"
+                "#\n"
+                "# Created by: David Hooton <klingon_tools+david@"
+                "hooton.org>\n"
+                "# Date: 26-07-2024\n"
+                "#\n"
+                "# Usage: Copy this file to the root of your project and "
+                "rename it to .gitignore\n"
+                "#        Uncomment the include lines for the languages and "
+                "environments you\n"
+                "#        need. DO NOT symlink into this file, it is designed"
+                " to be customised\n"
+                "#        and could be overwritten if updated.\n"
+                "#\n"
+                "# License: This project is licensed under the MIT License\n"
+                "#          https:/opensource.org/licenses/MIT\n"
+                "#############################################################"
+                "##################\n"
             )
 
 
@@ -180,13 +199,16 @@ def sync_gitignore(gitignore_path):
             "core": get_gitignore_files(
                 "gitignore/klingon_templates/core", section_files
             ),
+            "environments": get_gitignore_files(
+                "gitignore/klingon_templates/environments", section_files
+            ),
             "ide": get_gitignore_files(
                 "gitignore/klingon_templates/ide", section_files
             ),
             "shell": get_gitignore_files(
                 "gitignore/klingon_templates/shell", section_files
             ),
-            "language": get_gitignore_files(
+            "languages": get_gitignore_files(
                 "gitignore/klingon_templates/languages", section_files
             ),
             "github": get_gitignore_files(
