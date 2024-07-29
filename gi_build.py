@@ -1,23 +1,45 @@
 #!/usr/bin/env python3
+"""
+gi_build.py
+
+This script generates a .gitignore file based on a list of templates and
+included files. It reads the gitignore/gitignore configuration file, processes
+the included templates, and writes the combined .gitignore file. If a
+.gitignore file already exists, it creates a backup with a timestamp.
+
+Usage:
+    Run this script directly to generate the .gitignore file:
+    $ ./gi_build.py
+
+License:
+    This project is licensed under the MIT License
+    https://opensource.org/licenses/MIT
+"""
+
 import os
 import shutil
 from datetime import datetime
 
 
 def build_gitignore():
-    """
-    Build a .gitignore file based on the gitignore list and included templates.
+    """Build a .gitignore file based on the gitignore list and included
+    templates.
 
     This function reads the gitignore list file, processes the included
     templates, and writes the combined .gitignore file. If a .gitignore file
     already exists, it creates a backup with a timestamp.
+
+    Example:
+        To generate the .gitignore file, simply run the script:
+        $ ./gi_build.py
     """
     # Get the current working directory
     base_dir = os.getcwd()
-    # Path to the gitignore list file
+    # Get the script directory
     script_dir = os.path.dirname(os.path.realpath(__file__))
+    # Path to the gitignore list file
     gitignore_list_path = os.path.join(script_dir, "gitignore", "gitignore")
-    # Path to the output .gitignore file in the current working directory
+    # Path to the output .gitignore file
     output_gitignore_path = os.path.join(base_dir, ".gitignore")
 
     # Header for the generated .gitignore file
@@ -42,34 +64,27 @@ def build_gitignore():
     included_files = []  # List to store included files and their comments
     current_comment = []  # List to store current comments
     for line in lines:
-        # Process each line in the gitignore list file
         stripped_line = line.strip()  # Remove leading and trailing whitespace
         if not stripped_line.startswith("#"):
             if stripped_line.startswith("!"):
                 # If the line starts with '!' (include directive), add the file
                 # and comments to the list
                 included_files.append((line[1:], current_comment))
-                current_comment = (
-                    []
-                )  # Reset current comments after including a file
+                # Reset current comments after including a file
+                current_comment = []
             else:
-                current_comment = (
-                    []
-                )  # Reset current comments if the line is not a comment or
+                # Reset current comments if the line is not a comment or
                 # include directive
+                current_comment = []
 
+    # If a .gitignore file already exists, create a backup with a timestamp
     if os.path.exists(output_gitignore_path):
-        # If a .gitignore file already exists, create a backup with a
-        # timestamp
-        timestamp = datetime.now().strftime(
-            "%Y%m%d-%H%M%S"
-        )  # Generate a timestamp
-        backup_gitignore_path = (
-            f"{output_gitignore_path}-{timestamp}"  # Backup file path
-        )
-        shutil.move(
-            output_gitignore_path, backup_gitignore_path
-        )  # Move the existing .gitignore to the backup path
+        # Generate a timestamp
+        timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+        # Backup file path
+        backup_gitignore_path = f"{output_gitignore_path}-{timestamp}"
+        # Move the existing .gitignore to the backup path
+        shutil.move(output_gitignore_path, backup_gitignore_path)
 
     # Write the new .gitignore file with the header
     with open(output_gitignore_path, "w") as out_f:
@@ -77,14 +92,12 @@ def build_gitignore():
         out_f.write(header + "\n\n")
 
         for file_path, comments in included_files:
-            # Process each included file and its comments
-            full_path = os.path.join(
-                base_dir, file_path.strip()
-            )  # Get the full path of the included file
+            # Get the full path of the included file
+            full_path = os.path.join(base_dir, file_path.strip())
             if os.path.exists(full_path):
                 # If the included file exists, read its content and write to
                 # the .gitignore file
-                out_f.write(f"## {file_path.strip()} start")
+                out_f.write(f"## {file_path.strip()} start\n")
                 with open(full_path, "r") as in_f:
                     in_header = False
                     for line in in_f:
