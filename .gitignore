@@ -11,32 +11,3 @@
 # License: This project is licensed under the MIT License
 #          https://opensource.org/licenses/MIT
 ##############################################################################
-
-
-# Include optional user defined project root `project.gitignore`
-## project ignores
-# Include core ignores - Should generally be active
-## core ignores
-# Include OS/environment-specific ignores (uncomment as needed)
-## environments ignores
-# Include IDE-specific ignores (uncomment as needed)
-## ide ignores
-# !klingon_templates/gitignore/klingon_templates/ide/emacs.gitignore
-# !klingon_templates/gitignore/klingon_templates/ide/jetbrains.gitignore
-# !klingon_templates/gitignore/klingon_templates/ide/nano.gitignore
-# !klingon_templates/gitignore/klingon_templates/ide/eclipse.gitignore
-# !klingon_templates/gitignore/klingon_templates/ide/sublime.gitignore
-# !klingon_templates/gitignore/klingon_templates/ide/vi.gitignore
-# !klingon_templates/gitignore/klingon_templates/ide/vim.gitignore
-# Include shell-specific ignores (uncomment as needed)
-## shell ignores
-# Include language-specific ignores (uncomment as needed)
-## languages ignores
-# !klingon_templates/gitignore/klingon_templates/languages/c.gitignore
-# !klingon_templates/gitignore/klingon_templates/languages/cpp.gitignore
-# !klingon_templates/gitignore/klingon_templates/languages/go.gitignore
-# !klingon_templates/gitignore/klingon_templates/languages/java.gitignore
-# !klingon_templates/gitignore/klingon_templates/languages/javascript.gitignore
-# !klingon_templates/gitignore/klingon_templates/languages/nodejs.gitignore
-# !klingon_templates/gitignore/klingon_templates/languages/php.gitignore
-.aider*
