@@ -1,0 +1,37 @@
+[tool.black]
+line-length = 79
+target-version = [ "py33", "py34", "py35", "py36", "py37", "py38", "py39", "py310", "py311", "py312"]
+include = "\\.pyi?$"
+exclude = "\\.eggs|\\.git|\\.hg|\\.mypy_cache|\\.tox|\\.venv|_build|buck-out|build|dist"
+
+[tool.flake8]
+# ignore = ["E501"]
+max-line-length = 79
+verbose = 3
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = ["import-error"]
+
+[tool.pylint.FORMAT]
+max-line-length = 79
+
+[tool.yapf]
+based_on_style = "google"
+column_limit = 79
+dedent_closing_brackets = true
+coalesce_brackets = true
+spaces_before_comment = 4
+split_before_logical_operator = true
+
+[tool.yapfignore]
+ignore_patterns = ["temp/**/*.py", "temp2/*.py"]
+
+[tool.mypy]
+exclude = "tmp/"
+
+[build-system]
+requires = ["setuptools", "wheel", "packaging", "toml", "build", "twine"]
+build-backend = "setuptools.build_meta"
+
+[tool.semantic_release]
+version = "2.0.1"
