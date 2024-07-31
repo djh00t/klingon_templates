@@ -23,18 +23,18 @@ repos:
         args:
           - --markdown-linebreak-ext=md
 
-  #- repo: https://github.com/hhatto/autopep8
-  #  rev: v2.3.1
-  #  hooks:
-  #    - id: autopep8
-  #      args:
-  #        - --aggressive
-  #        - --aggressive
-  #        - --aggressive
-  #        - --in-place
-  #        - --list-fixes
-  #        - --max-line-length=79
-  #        - --pep8-passes=5
+  - repo: https://github.com/hhatto/autopep8
+    rev: v2.3.1
+    hooks:
+      - id: autopep8
+        args:
+          - --aggressive
+          - --aggressive
+          - --aggressive
+          - --in-place
+          - --list-fixes
+          - --max-line-length=79
+          - --pep8-passes=5
 
   # YAPF configuration is in pyproject.toml
   #- repo: https://github.com/google/yapf
