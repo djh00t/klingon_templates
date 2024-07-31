@@ -103,9 +103,3 @@ repos:
       - id: slack-webhook-url
       - id: google-oauth-client-secret
 
-  # YAPF configuration is in pyproject.toml
-  - repo: https://github.com/google/yapf
-    rev: v0.40.2
-    hooks:
-    - id: yapf
-      args: ['--in-place', '--verbose', '--style', 'google']
