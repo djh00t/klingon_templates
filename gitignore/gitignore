@@ -31,7 +31,7 @@
 !klingon_templates/gitignore/klingon_templates/environments/docker.gitignore
 !klingon_templates/gitignore/klingon_templates/environments/linux.gitignore
 !klingon_templates/gitignore/klingon_templates/environments/macos.gitignore
-!klingon_templates/gitignore/klingon_templates/environments/windows.gitignore
+#!klingon_templates/gitignore/klingon_templates/environments/windows.gitignore
 ## end gitignore
 
 # Include IDE-specific ignores (uncomment as needed)
@@ -61,7 +61,7 @@
 # !klingon_templates/gitignore/klingon_templates/languages/go.gitignore
 # !klingon_templates/gitignore/klingon_templates/languages/java.gitignore
 # !klingon_templates/gitignore/klingon_templates/languages/javascript.gitignore
-# !klingon_templates/gitignore/klingon_templates/languages/nodejs.gitignore
+!klingon_templates/gitignore/klingon_templates/languages/nodejs.gitignore
 # !klingon_templates/gitignore/klingon_templates/languages/php.gitignore
 !klingon_templates/gitignore/klingon_templates/languages/python.gitignore
 # !klingon_templates/gitignore/klingon_templates/languages/ruby.gitignore
